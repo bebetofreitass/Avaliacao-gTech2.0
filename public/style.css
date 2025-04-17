@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Cambria, serif;
+}
+
+button {
+  padding: 8px 20px;
+  background: orangered;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+button:hover {
+  background: #eb5e01;
+  color: whitesmoke;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 15px 5%;
+  background: white;
+}
+
+.header-nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 5.5px;
+  color: orangered;
+}
+
+.header-nav .logo img {
+  width: 20%;
+  margin-top: 2.5px;
+}
+
+.header-nav nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.header-nav nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.header-nav nav a:hover {
+  color: orangered;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  padding: 0 5%;
+  color: white;
+  text-align: center;
+}
+
+.banner::before {
+  filter: brightness(25%);
+  inset: 0;
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: url("./assets/images/ship.png") center/cover;
+}
+
+.banner h1 {
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.banner h4 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: orangered;
+}
+
+.banner form {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.banner input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+}
+
+.banner form button {
+  border: 1px solid #ff6600;
+  border-radius: 0 5px 5px 0;
+}
