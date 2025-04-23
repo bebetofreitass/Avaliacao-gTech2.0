@@ -1,7 +1,10 @@
+
 :root{
   --cor-laranja: #ff4800;
   --cor-branca: #fff;
   --cor-preta: #000000;
+  --cor-cinza: #D3D3D3
+  ;
 }
 
 * {
@@ -115,8 +118,9 @@ button:hover {
 }
 /* Parte 2 */
 .container1 {
-  background-color: var(--cor-branca);
+  background-color: var(--cor-cinza);
   padding: 3rem 5%;
+  
 }
 
 .linha2 {
