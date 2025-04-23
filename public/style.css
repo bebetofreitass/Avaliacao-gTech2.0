@@ -131,8 +131,6 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-
-/* Texto do conteúdo da esquerda */
 .nome1-laranja {
   color: #ff4800;
   text-transform: uppercase;
@@ -197,7 +195,6 @@ button:hover {
   border: none;
   cursor: pointer;
   font-weight: bold;
-  transition: background 0.3s ease;
 }
 .botao1:hover {
   background-color: #141423;
