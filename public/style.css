@@ -190,3 +190,95 @@ button:hover {
 .botao:hover{
   background-color: var(--cor-preta);
 }
+
+/* Parte 3 */
+.footer {
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  background-color:#1F1F2E;
+  gap: 20px;
+}
+
+.footer-content{
+  display: flex;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 280px;
+  margin: 10px;
+}
+
+.footer-section h2 {
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section a {
+  color:white;
+  text-decoration: none;
+}
+
+.icone {
+  margin-right: 8px;
+  vertical-align: middle;
+  
+}
+
+.social-media-icons a {
+  margin-right: 10px;
+;
+}
+
+input[type="email"] {
+  padding: 8px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+p {
+ width: 100%;
+  color: white;
+}
+
+h2{
+
+  color: orangered;
+  font-size: 20px;
+}
+
+.footer-final ul {
+  display: flex;
+  justify-content: flex-end; /* alinha à direita */
+  gap: 20px;                 /* espaço entre os links */
+  list-style: none;          /* remove os pontos */
+  margin: 0;
+  padding: 0;   
+  height: 0;       /* espaçamento interno */
+}
+
+.footer-final li a {
+  text-decoration: none;
+  color:white;
+}
+
