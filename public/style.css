@@ -2,7 +2,7 @@
   --cor-laranja: #ff4800;
   --cor-branca: #fff;
   --cor-preta: #000000;
-  --cor-cinza: #D3D3D3;
+  --cor-cinza: #F2F2F4;
 }
 
 /* Parte 1 */
@@ -28,6 +28,11 @@ button {
 button:hover {
   background: var(--cor-laranja);
   color: var(--cor-branca);
+}
+
+input,
+select {
+  border-radius: 5px;
 }
 
 .header-nav {
@@ -227,19 +232,17 @@ button:hover {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  padding: 30px;
+  padding: 4rem 10rem;
   background-color: #1F1F2E;
 }
 
 .footer-content {
   display: flex;
+  margin: 0 0 2rem 0;
 }
-
 
 .footer-section {
   flex: 1;
-  min-width: 280px;
-  margin: 10px;
 }
 
 .footer-section h2 {
@@ -261,8 +264,18 @@ button:hover {
   vertical-align: middle;
 }
 
+.social-media-icons {
+  margin: 1rem 0 0 0;
+}
+
 .social-media-icons a {
   margin-right: 10px;
+}
+
+.social-media-icons a img {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 100%;
 }
 
 button {
@@ -288,9 +301,14 @@ h2 {
   color: orangered;
 }
 
+.footer-final {
+  display: flex;
+  margin: 1rem 0 0 0;
+}
+
 .footer-final ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: start;
   gap: 20px;
   height: 0;
   margin: 0;
@@ -303,6 +321,50 @@ h2 {
   text-decoration: none;
 }
 
+.newsletter p {
+  margin: 0 0 1rem 0;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: start;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter input {
+  padding: 20px;
+  width: 75%;
+  border: 1px solid var(--cor-branca);
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+}
+
+.newsletter button {
+  border: 1px solid var(--cor-laranja);
+  width: 25%;
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+}
+
+.contato ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.links ul li::before {
+  content: '>';
+  margin-right: 10px;
+  color: white;
+}
+
 .section-cards {
   display: flex;
   flex-direction: column;
@@ -310,8 +372,8 @@ h2 {
 }
 
 .section-cards--title {
-  text-align: center;
   padding: 0 0 3em 0;
+  text-align: center;
 }
 
 .section-cards--title h2 {
@@ -321,70 +383,70 @@ h2 {
 
 .section-cards--title h6 {
   font-size: 16px;
-  color: orangered
+  color: orangered;
 }
 
 .section-cards--bodys {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
   gap: 2em;
+  text-align: center;
 }
 
 .card-body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-color: #F2F2F4;
   border-radius: 5px;
 }
 
 .card-body div {
   width: 100%;
-  background-color: orangered;
-  padding: 1rem 0;
   margin: 0 0 1rem 0;
+  padding: 1rem 0;
+  background-color: orangered;
   border-radius: 0;
 }
 
 .card-body h1 {
-  font-size: 48px;
   margin: 1rem 0;
+  font-size: 48px;
   font-weight: bolder;
 }
 
 .card-body h1 sup {
-  font-size: 20px;
-  color: gray;
-  font-weight: lighter;
   position: absolute;
   margin-top: 12px;
   margin-left: -12px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
 }
 
 .card-body h1 sub {
-  font-size: 20px;
-  color: gray;
-  font-weight: lighter;
   position: absolute;
   margin-top: 22px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: gray;
 }
 
 .card-body h2 {
-  color: black;
   font-weight: bolder;
+  color: black;
 }
 
 .card-body p {
-  color: gray;
   margin: 5px 2rem;
+  color: gray;
 }
 
 .card-body button {
   width: 45%;
-  padding: 10px 0;
   margin: 1rem 0 2rem 0;
+  padding: 10px 0;
   border-radius: 5px;
 }
