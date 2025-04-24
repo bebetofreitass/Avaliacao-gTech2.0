@@ -9,8 +9,7 @@
 </head>
 
 <body>
-  <!-- Parte 1 -->
-  <header class="header-nav">
+  <header>
     <div class="logo">
       <img src="./public/assets/images/truck.png" alt="Truck">
       <h2>Faster</h2>
@@ -27,144 +26,124 @@
     </nav>
     <button type="button">Get a Budget</button>
   </header>
-  <main>
-    <section class="banner">
-      <div>
-        <h4>Safer &amp; Faster</h4>
-        <h1>Logistics Services</h1>
-        <form>
-          <input type="search" placeholder="Tracking ID">
-          <button type="submit">Track &amp; Trace</button>
-        </form>
-      </div>
-    </section>
-  </main>
 
-  <!-- Parte 2 -->
-  <div class="container-principal">
-    <div class="container-secundario">
-      <div class="linha-descricao">
-        <div class="coluna-descricao">
-          <h6 class="nome-laranja">Get A Quote</h6>
-          <h1 class="nome-principal-negrito">Request A Free Quote</h1>
-          <p class="descricao">
-            De llanura bajaba borrando se musgos que la la criaturas bajaba. Mujer de el hombrecillo celeste embozo. Desnudo para con.
-          </p>
-          <div class="linha-contador">
-            <div class="coluna-skill">
-              <h1 class="numero-skill-negrito" data-toggle="contador">225</h1>
-              <h6 class="nome-skill-negrito">Skilled Experts</h6>
-            </div>
-            <div class="coluna-happy">
-              <h1 class="numero-happy-negrito" data-toggle="contador">1050</h1>
-              <h6 class="nome-happy-negrito">Happy Clients</h6>
-            </div>
-            <div class="coluna-completo">
-              <h1 class="numero-completo-negrito" data-toggle="contador">2500</h1>
-              <h6 class="nome-completo-negrito ">Complete Projects</h6>
-            </div>
-          </div>
+  <section class="banner">
+    <h4>Safer &amp; Faster</h4>
+    <h1>Logistics Services</h1>
+    <form>
+      <input type="search" placeholder="Tracking ID">
+      <button type="submit">Track &amp; Trace</button>
+    </form>
+  </section>
+
+  <section class="quote">
+    <div class="quote-info">
+      <h6>Get A Quote</h6>
+      <h1>Request A Free Quote</h1>
+      <p>
+        De llanura bajaba borrando se musgos que la la criaturas bajaba. Mujer de el hombrecillo celeste embozo. Desnudo para con.
+      </p>
+      <div class="stats">
+        <div>
+          <h1>225</h1>
+          <h6>Skilled Experts</h6>
         </div>
-        <div class="coluna-seletor">
-          <div class="fundo">
-            <form class="padding">
-              <div class="grupo-nome">
-                <input type="text" class="formulario-nome" placeholder="Your Name" />
-              </div>
-              <div class="grupo-email">
-                <input type="email" class="formulario-email" placeholder="Your Email" />
-              </div>
-              <div class="grupo-seletor">
-                <select title="Select A Service" class="seletor">
-                  <option selected disabled>Select A Service</option>
-                  <option value="1">Serviço 1</option>
-                  <option value="2">Serviço 2</option>
-                  <option value="3">Serviço 3</option>
-                </select>
-              </div>
-              <div>
-                <button class="botao" type="submit">Get A Quote</button>
-              </div>
-            </form>
-          </div>
+        <div>
+          <h1>1050</h1>
+          <h6>Happy Clients</h6>
+        </div>
+        <div>
+          <h1>2500</h1>
+          <h6>Complete Projects</h6>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Parte 3 -->
-  <div>
-    <section class="section-cards">
-      <div class="section-cards--title">
-        <h6>PRICING PLAN</h6>
-        <h2>Affordable Pricing Packages</h2>
+    <div class="quote-form">
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <select title="Select A Service">
+          <option selected disabled>Select A Service</option>
+          <option value="1">Serviço 1</option>
+          <option value="2">Serviço 2</option>
+          <option value="3">Serviço 3</option>
+        </select>
+        <button type="submit">Get A Quote</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <header>
+      <h6>PRICING PLAN</h6>
+      <h2>Affordable Pricing Packages</h2>
+    </header>
+
+    <div class="pricing-cards">
+      <div class="card">
+        <h1><sup>$</sup>49<sub>/Mo</sub></h1>
+        <div class="card-title">
+          <h2>BASIC</h2>
+        </div>
+        <p>HTML5</p>
+        <p>Bootstrap 4</p>
+        <p>Responsive Layout</p>
+        <p>Compatible With All Browsers</p>
+        <button type="button">Order Now</button>
       </div>
-      <div class="section-cards--bodys">
-        <div class="card-body">
-          <h1><sup>$</sup>49<sub>/Mo</sub></h1>
-          <div>
-            <h2>BASIC</h2>
-          </div>
-          <p>HTML5</p>
-          <p>Bootstrap 4</p>
-          <p>Responsive Layout</p>
-          <p>Compatible With All Browsers</p>
-          <button type="button">Order Now</button>
-        </div>
 
-        <div class="card-body">
-          <h1><sup>$</sup>99<sub>/Mo</sub></h1>
-          <div>
-            <h2>PREMIUM</h2>
-          </div>
-          <p>HTML5</p>
-          <p>Bootstrap 4</p>
-          <p>Responsive Layout</p>
-          <p>Compatible With All Browsers</p>
-          <button type="button">Order Now</button>
+      <div class="card">
+        <h1><sup>$</sup>99<sub>/Mo</sub></h1>
+        <div class="card-title">
+          <h2>PREMIUM</h2>
         </div>
-
-        <div class="card-body">
-          <h1><sup>$</sup>149<sub>/Mo</sub></h1>
-          <div>
-            <h2>BUSINESS</h2>
-          </div>
-          <p>HTML5</p>
-          <p>Bootstrap 4</p>
-          <p>Responsive Layout</p>
-          <p>Compatible With All Browsers</p>
-          <button type="button">Order Now</button>
-        </div>
+        <p>HTML5</p>
+        <p>Bootstrap 4</p>
+        <p>Responsive Layout</p>
+        <p>Compatible With All Browsers</p>
+        <button type="button">Order Now</button>
       </div>
-    </section>
-  </div>
 
-  <!-- Parte 4 -->
-  <footer class="footer">
+      <div class="card">
+        <h1><sup>$</sup>149<sub>/Mo</sub></h1>
+        <div class="card-title">
+          <h2>BUSINESS</h2>
+        </div>
+        <p>HTML5</p>
+        <p>Bootstrap 4</p>
+        <p>Responsive Layout</p>
+        <p>Compatible With All Browsers</p>
+        <button type="button">Order Now</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
     <div class="footer-content">
-      <div class="footer-section contato">
+      <div>
         <h2>Get In Touch</h2>
         <ul>
           <li>
-            <a href="#"><img class="icone" src="./public/assets/images/map-regular-24.png" alt="Endereço">123 Street, New York, USA</a>
+            <a href="#"><img class="icon" src="./public/assets/images/map-regular-24.png" alt="Endereço">123 Street, New York, USA</a>
           </li>
           <li>
-            <a href="#"><img class="icone" src="./public/assets/images/phone-solid-24.png" alt="Telefone">(85) 99946-3129</a>
+            <a href="#"><img class="icon" src="./public/assets/images/phone-solid-24.png" alt="Telefone">(85) 99946-3129</a>
           </li>
           <li>
-            <a href="#"><img class="icone" src="./public/assets/images/envelope-regular-24.png" alt="Email">info@exemple.com</a>
+            <a href="#"><img class="icon" src="./public/assets/images/envelope-regular-24.png" alt="Email">info@exemple.com</a>
           </li>
         </ul>
-        <div class="social-media-icons">
-          <a href="#"><img src="./public/assets/images/facebook-logo-24 (1).png" alt="Facebook"></a>
-          <a href="#"><img src="./public/assets/images/twitter-logo-24 (1).png" alt="Twitter"></a>
+        <div class="social">
+          <a href="#"><img src="./public/assets/images/facebook-logo-24.png" alt="Facebook"></a>
+          <a href="#"><img src="./public/assets/images/twitter-logo-24.png" alt="Twitter"></a>
           <a href="#"><img src="./public/assets/images/instagram-logo-24.png" alt="Instagram"></a>
         </div>
       </div>
 
-      <div class="footer-section links">
+      <div>
         <h2>Quick Links</h2>
-        <ul>
+        <ul class="quick-links">
           <li><a href="#Home">Home</a></li>
           <li><a href="#About">About</a></li>
           <li><a href="#Service">Service</a></li>
@@ -174,7 +153,7 @@
         </ul>
       </div>
 
-      <div class="footer-section newsletter">
+      <div>
         <h2>Newsletter</h2>
         <p>Sign up with your email to receive news and special offers.</p>
         <form>
@@ -186,7 +165,7 @@
 
     <hr>
 
-    <div class="footer-final">
+    <div class="footer-bottom">
       <p>&copy; 2025 Faster. Todos os direitos reservados.</p>
       <ul>
         <li><a href="#">Privacy</a></li>
