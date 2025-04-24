@@ -390,14 +390,26 @@ hr {
 
 /* Parte 4 */
 .container-membros {
+  background-color: var(--gray);
   text-align: center;
+  padding: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.text-team {
-  margin-bottom: 2rem;
+.text-team h1{
+  color: var(--orange);
+font-size: 15px;
+font-style: italic;
+}
+.text-team h2{
+  margin: 0.5rem 0;
+  padding: 1rem;
+  font-style: italic;
 }
 .members-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
   gap: 2rem;
 }
 .membro {
